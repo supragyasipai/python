@@ -16,9 +16,9 @@ names = ['ram','hari','sita']
 # names.remove('ram')
 # print(names)
 
-# us=["dina",'seri']
-# names.extend(us)
-# print(names)
+us=["dina",'seri']
+names.extend(us)
+print(names)
 # names.clear()
 # print(names)
 
