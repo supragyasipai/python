@@ -4,7 +4,7 @@ names = ['ram','hari','sita']
 # names[0]='kris'
 # print(names)
 # names.append("gopal")
-# print(names)
+print(names)
    
 # to know the property under it
 # print(dir(names))   
@@ -13,12 +13,12 @@ names = ['ram','hari','sita']
 # print(names)
 # print(names.pop())
 
-# names.remove('ram')
-# print(names)
-
-us=["dina",'seri']
-names.extend(us)
+names.remove('ram')
 print(names)
+
+# us=["dina",'seri']
+# names.extend(us)
+# print(names)
 # names.clear()
 # print(names)
 
