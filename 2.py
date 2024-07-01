@@ -42,7 +42,52 @@ else:
 # 60-75 =a
 # 75-100 =a+
 # 0-35 =fail
-# a=int(input("Enter 
+a=int(input("Enter your marks in eng:"))
+b=int(input("Enter your marks in nep:"))
+c=int(input("Enter your marks in sci:"))
+d=int(input("Enter your marks in math:"))
+e=int(input("Enter your marks in comp:"))
+total=a+b+c+d+e
+percentage=(total/500)*100
+print("Your percentage is " ,percentage,"%")
+if percentage<35:
+    print("You are fail.")
+elif percentage>35 and percentage<45:
+    print("You got C.")
+elif percentage>45 and percentage<60:
+    print("You got B.")
+elif percentage>60 and percentage<75:
+    print("You got A.")
+else:
+    print("You got A+")
+
+
+print("1 for add")
+print("2 for subtract")
+print("3 for multiplication")
+print("4 for division")
+print("5 for modulus division")
+choice=int(input("Enter your choice:"))
+if choice==1:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:"))
+    print(a+b)
+elif choice==2:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:"))
+    print(a-b)
+elif choice==3:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:"))
+    print(a*b)
+elif choice==4:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:"))
+    print(a/b)
+else:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:"))
+    print(a%b)
 
 
 

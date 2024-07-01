@@ -13,7 +13,7 @@ print(names)
 # print(names)
 # print(names.pop())
 
-names.remove('ram')
+# names.remove('ram')
 print(names)
 
 # us=["dina",'seri']
